@@ -1,0 +1,8 @@
+Validation date (UTC runner): 2026-11-21 22:58:01
+MATLAB: 24.1.0.3303086 (R2024a) Update 9
+Scope: numerical checks and synthetic onboarding demo; legacy experiments excluded.
+All numerical checks passed.
+LNA analytic demo: K=0.619803 mu=0.553733 |Delta|=0.369797; lowest grid NF 0.22009 dB.
+NF at exact optimum 0.22 dB; conjugate-matched load magnitude 0.408292.
+Demo elapsed seconds: 6.20658
+Validation completed successfully.
