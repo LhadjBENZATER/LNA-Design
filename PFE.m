@@ -41,7 +41,7 @@ end
 [L_2 ctype]=B2LC(B2,f0);[C_2 ltype]=X2LC(X2,f0);% the 2nd solution
 
 %%%%%%%%%%         Second aproach using S2P file       %%%%%%%%%%%%%%%%%
-unmatched_amp = read(rfckt.amplifier, 'Vds=4V_Id=40mA_atf341433.s2p');
+unmatched_amp = read(rfckt.amplifier, 'Vds4V_Id40mA.s2p');
 freq=5e8:100e6:3.5e9;Ga=17.16;analyze(unmatched_amp,freq);
 figure%Plotting the intersection
 hsm = smithchart;circle(unmatched_amp,f0,'Stab','In','Stab','Out','Ga',Ga,'NF',F,hsm);
@@ -101,4 +101,5 @@ subplot(2,2,4);
 plotyy(Matched_Amp22,'Gt','dB','NF','dB');[hAx,hLine1,hLine2]=plotyy(Matched_Amp22,'Gt','dB','NF','dB');
 xlabel('Frequency (GHz)');ylabel(hAx(1),'Available gain (dB)');ylabel(hAx(2),'Noise figure (dB)')
 title('Configuration 4 (IN2 & Out2)')
+
 

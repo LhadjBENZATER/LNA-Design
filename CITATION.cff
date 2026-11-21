@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated paper when relevant."
+title: "LNA Gain\u2013Noise Figure Design"
+type: software
+authors:
+  - family-names: Benzater
+    given-names: Hadj Abdelkader
+    orcid: https://orcid.org/0009-0006-2533-0315
+url: https://github.com/LhadjBENZATER/LNA-Design
+repository-code: https://github.com/LhadjBENZATER/LNA-Design
+license: MIT
+keywords:
+  - MATLAB
+  - telecommunications
+  - reproducible-research
+preferred-citation:
+  type: article
+  title: "Improved Signal Quality in Compressed Spectrum Sensing: A Novel LNA Design Approach for SDR Boards"
+  authors:
+    - family-names: "Benzater"
+      given-names: "Hadj Abdelkader"
+    - family-names: "Azrar"
+      given-names: "Arab"
+    - family-names: "Lassami"
+      given-names: "Nacerredine"
+    - family-names: "Teguig"
+      given-names: "Djamal"
+    - family-names: "Zeraoula"
+      given-names: "Hamza"
+  year: 2026
+  doi: 10.1007/s00034-025-03316-1
+  journal: "Circuits, Systems, and Signal Processing, 45, 2109\u20132122"

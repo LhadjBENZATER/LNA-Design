@@ -8,7 +8,7 @@ Z_L =18.1365 + 3.3819i;
 
 
 %f=2e9;
-ckt = read(rfckt.amplifier, 'Vds=4V_Id=40mA_atf341433.s2p');
+ckt = read(rfckt.amplifier, 'Vds4V_Id40mA.s2p');
 %ckt = read(rfckt.amplifier,'default.s2p');
 s_params = ckt.NetworkData.Data;
 z0 = ckt.NetworkData.Z0;
